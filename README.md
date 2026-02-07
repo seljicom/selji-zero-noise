@@ -6,19 +6,26 @@
 
 Zero-Noise utilities for safer product research.
 
-`selji-zero-noise` provides small, practical tools to help buyers and researchers:
-- score product confidence
-- detect review manipulation signals
-- build cleaner Amazon search queries
+`selji-zero-noise` is a lightweight, cross-language toolkit designed to support
+evidence-based buying decisions. It focuses on reducing noise in product research
+by analyzing real customer signals instead of marketing hype.
+
+The package provides small, transparent helpers to:
+
+- score product confidence based on ratings and volume
+- detect basic review manipulation and noise patterns
+- build cleaner, more focused Amazon search queries
 
 Built as part of the **SELJI Zero-Noise Shopping** project.
 
-Website: https://selji.com
+Website: https://selji.com  
+GitHub: https://github.com/seljicom/selji-zero-noise
 
 ---
 
 ## Installation
 
-### Node.js
+### Node.js (npm)
+
 ```bash
 npm install selji-zero-noise
