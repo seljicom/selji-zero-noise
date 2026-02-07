@@ -1,0 +1,15 @@
+{
+  "name": "selji-zero-noise",
+  "version": "1.0.0",
+  "description": "Zero-Noise utilities for safer product research",
+  "main": "src/index.js",
+  "bin": {
+    "selji-zero-noise": "bin/selji.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seljicom/selji-zero-noise"
+  },
+  "homepage": "https://selji.com",
+  "license": "MIT"
+}

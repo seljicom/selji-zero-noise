@@ -1,0 +1,14 @@
+[project]
+name = "selji-zero-noise"
+version = "1.0.0"
+description = "Zero-Noise utilities for safer product research"
+readme = "README.md"
+license = { text = "MIT" }
+urls = { Homepage = "https://selji.com" }
+
+[project.scripts]
+selji-zero-noise = "selji_zero_noise.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
